@@ -31,6 +31,19 @@ choose/copy ...or push an existing repo from the command line
 
 this will push the branch to the remote repository
 
+to push from a branch:
+
+The current branch branch_1 has no upstream branch. #this means that the branch is not connected to the remote repository
+To push the current branch and set the remote as upstream, use 
+
+    git push --set-upstream origin branch_1 #this will push the branch to the remote repository
+    or 
+    git push -u origin branch_1
+
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
 - find a visual git tool to help you understand the git tree - not understand branches
 
 git fork - is when you copy a repository from one account to another account
