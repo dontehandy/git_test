@@ -38,13 +38,17 @@ To push the current branch and set the remote as upstream, use
 
     git push --set-upstream origin branch_1 #this will push the branch to the remote repository
     or 
-    git push -u origin branch_1
+    git push -u origin branch_1 #this will push the branch to the remote repository
+
+
 
 
 To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 
 - used git stash to save changes in the working directory without committing them to the repository
+
+- main branch never changes, it is pushed from branch_1 
 
 - find a visual git tool to help you understand the git tree - not understand branches
 
