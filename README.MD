@@ -44,6 +44,8 @@ To push the current branch and set the remote as upstream, use
 To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 
+- used git stash to save changes in the working directory without committing them to the repository
+
 - find a visual git tool to help you understand the git tree - not understand branches
 
 git fork - is when you copy a repository from one account to another account
