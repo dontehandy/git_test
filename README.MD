@@ -23,6 +23,14 @@ or
 
 to get back to main branch use: git checkout main
 
+#cant push a branch to a remote repository if it doesnt exist on the remote repository
+#to push a branch to a remote repository use: git remote add origin [url] - from the remote repository in github
+
+-create one with the same name
+choose/copy ...or push an existing repo from the command line
+
+this will push the branch to the remote repository
+
 - find a visual git tool to help you understand the git tree - not understand branches
 
 git fork - is when you copy a repository from one account to another account
