@@ -66,3 +66,20 @@ looks like:
 >>>>>>>> main
 
 
+for partner exercise :
+
+add reomte to local: git remote add origin git@github.com:dontehandy/git_test.git
+
+<!-- ```ruby
+class ExampleClass
+    attr_reader :attribute_a, :attribute2, :attribute3
+
+    def initialize(attribute_a, attribute2, attribute3)
+        @attribute_a = attribute1
+        @attribute2 = attribute2
+        @attribute3 = attribute3
+    end
+end
+``` -->
+
+#add collaborator to repository by going to settings, manage access, invite a collaborator _ scope issue...use setting for this project/not profile.
