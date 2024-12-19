@@ -83,3 +83,7 @@ end
 ``` -->
 
 #add collaborator to repository by going to settings, manage access, invite a collaborator _ scope issue...use setting for this project/not profile.
+# git push origin new_branch -  will push the branch to the remote repository by making it the upstream branch
+# orgin is the remote repository
+# new_branch is the branch that is being pushed to the remote repository
+
